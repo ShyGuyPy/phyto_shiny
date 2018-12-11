@@ -29,7 +29,8 @@ need <- c("shiny",
           "jsonlite",
           "rprojroot",
           "ritis",
-          "mmir") 
+          "mmir",
+          "magrittr") 
 # find out which packages are installed
 ins <- installed.packages()[, 1] 
 # check if the needed packages are installed
