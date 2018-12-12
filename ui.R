@@ -34,7 +34,9 @@ shinydashboard::dashboardPage(skin = "blue",
                                                                                                     ".csv"), width = NULL)
                 ),
                 
-                textOutput("test")
+                tableOutput("filedf")#,
+                #textOutput("test")
+                
             
                 
               )#end of body
